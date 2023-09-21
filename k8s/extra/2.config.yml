@@ -1,0 +1,31 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: homeassist-config
+type: Opaque
+data:
+  configuration.yaml: aG9tZWFzc2lzdGFudDoKICAjIE5hbWUgb2YgdGhlIGxvY2F0aW9uIHdoZXJlIEhvbWUgQXNzaXN0YW50IGlzIHJ1bm5pbmcKICBuYW1lOiBUZWNoWDMwMAogICMgTG9jYXRpb24gcmVxdWlyZWQgdG8gY2FsY3VsYXRlIHRoZSB0aW1lIHRoZSBzdW4gcmlzZXMgYW5kIHNldHMKICBsYXRpdHVkZTogNTUuNjc2NTIzNDY2OTMwOTkKICBsb25naXR1ZGU6IDEyLjU2MzUyODI1NTUxNDQzOAogICMgSW1wYWN0cyB3ZWF0aGVyL3N1bnJpc2UgZGF0YSAoYWx0aXR1ZGUgYWJvdmUgc2VhIGxldmVsIGluIG1ldGVycykKICBlbGV2YXRpb246IDAKICAjIG1ldHJpYyBmb3IgTWV0cmljLCBpbXBlcmlhbCBmb3IgSW1wZXJpYWwKICB1bml0X3N5c3RlbTogbWV0cmljCiAgIyBQaWNrIHlvdXJzIGZyb20gaGVyZTogaHR0cDovL2VuLndpa2lwZWRpYS5vcmcvd2lraS9MaXN0X29mX3R6X2RhdGFiYXNlX3RpbWVfem9uZXMKICB0aW1lX3pvbmU6IEV1cm9wZS9Db3BlbmhhZ2VuCgogIGF1dGhfcHJvdmlkZXJzOgogICAgLSB0eXBlOiBob21lYXNzaXN0YW50CgpkZWZhdWx0X2NvbmZpZzoKCmh0dHA6CiAgdXNlX3hfZm9yd2FyZGVkX2ZvcjogdHJ1ZQogIHRydXN0ZWRfcHJveGllczoKICAgIC0gMTcyLjIwLjAuMC8xNg==
+#
+#---
+#homeassistant:
+#  # Name of the location where Home Assistant is running
+#  name: TechX300
+#  # Location required to calculate the time the sun rises and sets
+#  latitude: 55.67652346693099
+#  longitude: 12.563528255514438
+#  # Impacts weather/sunrise data (altitude above sea level in meters)
+#  elevation: 0
+#  # metric for Metric, imperial for Imperial
+#  unit_system: metric
+#  # Pick yours from here: http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+#  time_zone: Europe/Copenhagen
+#
+#  auth_providers:
+#    - type: homeassistant
+#
+#default_config:
+#
+#http:
+#  use_x_forwarded_for: true
+#  trusted_proxies:
+#    - 172.20.0.0/16

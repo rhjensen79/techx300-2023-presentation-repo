@@ -1,0 +1,16 @@
+{
+	"name": "PowerCLi Container",
+	"image": "vmware/powerclicore:latest",
+	"postCreateCommand": ".devcontainer/postinstall.sh",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-vscode.PowerShell"
+			]
+		}
+	},
+	"runArgs": [
+		"--env-file",
+		".devcontainer/devcontainer.env"
+	]
+}
